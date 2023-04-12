@@ -23,8 +23,8 @@ export function MovieDetails(){
                <img className="col movieImage" src={imageUrl} alt={movie.title}/>
                <div className="col movieDetails">
                     <p className="title"><strong>{movie.title}</strong></p>
-                    <p><strong>Genero:</strong> {generos.join(", ")}</p>
-                    <p><strong>Descripcion:</strong> {movie.overview}</p>
+                    <p><strong>Genres:</strong> {generos.join(", ")}</p>
+                    <p><strong>Description:</strong> {movie.overview}</p>
                </div>
           </div>
      );
